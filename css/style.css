@@ -10,17 +10,10 @@
   --sectionbackground: #f5f5f5;
   --avtivebackgroudbtn: #188ce8;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1,h2,h3,h4,h5,h6,p{
   margin: 0;
 }
-ul,
-ol {
+ul,ol{
   margin: 0;
   padding-left: 0;
 }
@@ -61,8 +54,8 @@ body {
   padding-right: 15px;
   margin: 0 auto;
   /* border: 1px solid tomato; */
-}
-section{
+  }
+.section{
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -72,7 +65,7 @@ section{
   background: var(--mainbackdroundcolor);
   padding-top: 24px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid #ECECEC;
 }
 .header-conteiner {
   display: flex;
@@ -96,7 +89,7 @@ section{
 .logo-span {
   color: var(--logo-color);
 }
-.logo-box {
+.logo-box{
   margin-right: 93px;
 }
 
@@ -109,7 +102,7 @@ section{
 }
 .nav-link {
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom:32px;
 
   font-weight: 500;
   font-size: 14px;
@@ -134,7 +127,7 @@ section{
 }
 .header-link {
   padding-top: 32px;
-  padding-bottom: 32px;
+    padding-bottom: 32px;
 
   font-weight: 500;
   font-size: 14px;
@@ -153,10 +146,10 @@ section{
 }
 /* /------------------HERO-----------/ */
 .hero {
-  background: var(--footerbackground);
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+    background: var(--footerbackground);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -165,7 +158,7 @@ section{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-
+   
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -176,12 +169,14 @@ section{
 }
 
 .hero-btn {
+  
   max-height: 50px;
   min-width: 216px;
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 10px 32px;
-
+  
+  
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
@@ -204,7 +199,7 @@ section{
 }
 
 .benefits-list {
-  display: flex;
+  display:flex;
   justify-items: center;
   gap: 30px;
   /* padding-top: 94px;
@@ -230,7 +225,7 @@ section{
 }
 /* /----------------РОБОТА---------------/ */
 .work-title {
-  margin-bottom: 50px;
+   margin-bottom: 50px;
 
   font-size: 36px;
   line-height: 1.16;
@@ -240,14 +235,15 @@ section{
 
 .work-list {
   display: flex;
-  /* margin-bottom: 94px; */
+  margin-bottom: 94px; 
   margin-left: -15px;
 }
+
 
 .work-item {
   margin-right: 30px;
 }
-.work-item:last-child {
+.work-item:last-child{
   margin-right: 0px;
 }
 /* /------------КОМАНДА----------/ */
@@ -272,7 +268,7 @@ section{
 }
 
 .team-item {
-  background: var(--mainbackdroundcolor);
+    background: var(--mainbackdroundcolor);
 }
 
 .team-item-title {
@@ -295,12 +291,14 @@ section{
   text-align: center;
   color: var(--text-color);
 }
-.team-box {
+.team-box{
   padding-top: 30px;
   padding-bottom: 30px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+      0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
 }
 /* /-----------------FOOTER--------------/ */
 .footer {
@@ -369,11 +367,11 @@ section{
 .portfolio {
   /* padding-top: 94px;
   padding-bottom: 94px; */
-}
+ }
 
 .btn-sortlist {
   /* padding-top: 94px; */
-  display: flex;
+  display:flex;
   justify-content: center;
   gap: 30px;
 }
@@ -386,6 +384,7 @@ section{
   border: 1px solid transparent;
   max-height: 38px;
   padding: 6px 22px;
+
 
   font-family: inherit;
   font-weight: 500;
@@ -429,10 +428,10 @@ section{
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.portfilio-box {
+.portfilio-box{
   max-width: 370px;
   min-height: 110px;
   padding: 20px 24px;
-  border: 1px solid #eeeeee;
-  border-top: none;
+  border: 1px solid #EEEEEE;
+  border-top: none ;
 }
